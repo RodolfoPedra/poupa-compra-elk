@@ -105,10 +105,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.8'
+          cpus: '1'
           memory: ${ES_MEM_LIMIT}
         reservations:
-          cpus: '0.6'
+          cpus: '0.8'
           memory: ${ES_RESERVATION_MEM_LIMIT}
     ulimits:
       memlock:
